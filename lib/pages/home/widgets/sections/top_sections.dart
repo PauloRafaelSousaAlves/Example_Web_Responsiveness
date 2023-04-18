@@ -10,13 +10,13 @@ class TopSection extends StatelessWidget {
     return LayoutBuilder(
       builder: ((context, constraints) {
         final maxWidth = constraints.maxWidth;
-        if (maxWidth >= 1100) {
+        if (maxWidth >= 1200) {
           return AspectRatio(
-            aspectRatio: 3.4,
+            aspectRatio: 3.2,
             child: Stack(
               children: [
                 AspectRatio(
-                  aspectRatio: 3.2,
+                  aspectRatio: 3.4,
                   child: Image.network(
                     'https://images.pexels.com/photos/892757/pexels-photo-892757.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940',
                     fit: BoxFit.cover,
@@ -49,7 +49,7 @@ class TopSection extends StatelessWidget {
                               color: Colors.white,
                             ),
                           ),
-                          SizedBox(height: 12),
+                          SizedBox(height: 16),
                           CustomSearchField(),
                         ],
                       ),

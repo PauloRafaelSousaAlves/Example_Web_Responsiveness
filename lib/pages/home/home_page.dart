@@ -1,3 +1,4 @@
+import 'package:example_web_responsiveness/pages/home/widgets/sections/advantage_sections.dart';
 import 'package:example_web_responsiveness/pages/home/widgets/sections/top_sections.dart';
 import 'package:example_web_responsiveness/utils/breakpoint.dart';
 import 'package:example_web_responsiveness/pages/home/widgets/appbar/mobile_appbar.dart';
@@ -31,6 +32,7 @@ class HomePage extends StatelessWidget {
               child: ListView(
                 children: const [
                   TopSection(),
+                  AdvantageSections(),
                 ],
               ),
             ),
