@@ -1,4 +1,4 @@
-import 'package:example_web_responsiveness/pages/home/widgets/sections/custom_search_field.dart';
+import 'package:example_web_responsiveness/utils/custom_search_field.dart';
 import 'package:example_web_responsiveness/utils/breakpoint.dart';
 import 'package:flutter/material.dart';
 
@@ -10,7 +10,7 @@ class TopSection extends StatelessWidget {
     return LayoutBuilder(
       builder: ((context, constraints) {
         final maxWidth = constraints.maxWidth;
-        if (maxWidth >= 1200) {
+        if (maxWidth >= tabletBreakpoint) {
           return AspectRatio(
             aspectRatio: 3.2,
             child: Stack(
