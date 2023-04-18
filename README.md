@@ -1,16 +1,15 @@
-# example_web_responsiveness
+ASSEGUIR DEMOSTRAREI COMO FICA A REPONSIVIDADE FEITA NO CÓDIGO DESTE REPOSITÓRIO, NUMA TELA DE CELULAR, TABLE E WEB:
 
-A new Flutter project.
+TELA PROPORCIONAL A UMA TELA DE CELULAR:
 
-## Getting Started
+![image](https://user-images.githubusercontent.com/97796194/232638403-c959bfe2-0c53-4574-801a-bf058f885e60.png)
 
-This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
+TELA PROPORCIONAL A UMA TELA DE TABLET:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+![image](https://user-images.githubusercontent.com/97796194/232638513-2133dd35-5db5-42ae-9d1b-c5497248e004.png)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
+TELA PROPORCIONAL A UMA TELA DE WEB:
+
+![image](https://user-images.githubusercontent.com/97796194/232638624-3ad197ee-4f7e-4e08-85ab-f248005d91fa.png)
